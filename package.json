@@ -3,10 +3,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-dev": "webpack serve --config frontend/webpack.dev.js",
-    "build": "webpack --config frontend/webpack.prod.js",
-    "start-common": "webpack --config frontend/webpack.common.js",
-    "serve": "node backend/index.js"
+    "serve": "node index.js"
   },
   "keywords": [],
   "author": "",
